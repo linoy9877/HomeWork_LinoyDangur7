@@ -1,0 +1,48 @@
+﻿<h3>HomeWork_LinoyDangur</h3>
+
+@code {
+ 
+
+    @using HomeWork_LinoyDangur.Shared.Models.Courses;
+    @inject HttpClient Http;
+@page "/Courses"
+ @course1.Name
+    <br />
+ @course1.Teacher
+    <br />
+ @course1.Credits
+    <br />
+ @course1.Exam
+
+    <input type="text" @bind="input" />
+    <button @onclick="CheckString">בדיקה</button>
+
+
+    @code {
+    Course course1;
+    string input;
+
+        protected override void OnInitialized()
+        {
+            course1 = new Course();
+            course1.Teacher = "dan";
+            course1.Credits = 3;
+            course1.Exam = true;
+            course1.Name = "programming";
+        }
+
+        async Task CheckString()
+        {
+            var checkResponse = await Http.GetAsync("api/Courses/" + input);
+            if (checkResponse.IsSuccessStatusCode == true)
+            {
+                string response;
+                response = checkResponse.Content.ReadAsStringAsync().Result;
+                course1.Teacher = response;
+            }
+        }
+
+
+    }
+
+}

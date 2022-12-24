@@ -1,0 +1,24 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HomeWork_LinoyDangur.Server
+build_property.RootNamespace = HomeWork_LinoyDangur.Server
+build_property.ProjectDir = C:\Users\linoy\Desktop\שב\HomeWork_LinoyDangur\Server\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\linoy\Desktop\שב\HomeWork_LinoyDangur\Server
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/linoy/Desktop/שב/HomeWork_LinoyDangur/Server/Pages/HomeWork_LinoyDangur.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVdvcmtfTGlub3lEYW5ndXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linoy/Desktop/שב/HomeWork_LinoyDangur/Server/Pages/Models/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kZWxzXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
